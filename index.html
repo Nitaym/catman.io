@@ -1,0 +1,236 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" />
+    <title>Test Game</title>
+    <script src="//cdn.jsdelivr.net/phaser/2.4.8/phaser.js"></script>
+    <!--<script type="text/javascript" src="bower_components/socket-io-client/socket.io.js"></script>-->
+    <script src="/socket.io/socket.io.js"></script>
+
+
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var game = new Phaser.Game(1024, 768, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render });
+
+function preload() {
+    game.load.script('weapon.js', 'weapon.js', null, this);
+    game.load.script('player.js', 'player.js', player_loaded, this);
+    game.load.script('remote_player.js', 'remote_player.js', null, this);
+
+    game.load.image('sky', 'assets/sky.png');
+    game.load.image('ground', 'assets/platform.png');
+    game.load.image('star', 'assets/star.png');
+    game.load.image('bullet', 'assets/bullet.png');
+    game.load.spritesheet('remote_dude', 'assets/player-green.png', 50, 50);
+
+    game.stage.disableVisibilityChange = true;
+}
+
+var player;
+
+function player_loaded() {
+    console.log('Player.js loaded')
+    player = new Player(game);   
+    player.preload();
+}
+
+var platforms;
+var cursors;
+
+var stars;
+var score = 0;
+var scoreText;
+var socket;
+
+var remote_players = [];
+
+var serverNextUpdate;
+var serverUpdateRate = 50;
+
+
+function create() {
+
+    //  We're going to be using physics, so enable the Arcade Physics system
+    game.physics.startSystem(Phaser.Physics.ARCADE);
+    game.physics.setBoundsToWorld();
+
+    //  A simple background for our game
+    sky = game.add.sprite(0, 0, 'sky');
+    sky.scale.setTo(2,2);
+
+    socket = io.connect("http://127.0.0.1:8000");//, {port: 8001, transports: ["websocket"]});
+    socket.on("connect", onSocketConnected);
+    socket.on("disconnect", onSocketDisconnect);
+    socket.on("new player", onNewPlayer);
+    socket.on("move player", onMovePlayer);
+    socket.on("remove player", onRemovePlayer);
+
+    //  The platforms group contains the ground and the 2 ledges we can jump on
+    platforms = game.add.group();
+
+    //  We will enable physics for any object that is created in this group
+    platforms.enableBody = true;
+
+    // Here we create the ground.
+    var ground = platforms.create(0, game.world.height - 64, 'ground');
+
+    //  Scale it to fit the width of the game (the original sprite is 400x32 in size)
+    ground.scale.setTo(3, 2);
+
+    //  This stops it from falling away when you jump on it
+    ground.body.immovable = true;
+
+    player.create();
+
+    //  Now let's create two ledges
+    var ledge = platforms.create(600, 400, 'ground');
+    ledge.body.immovable = true;
+
+    ledge = platforms.create(200, 550, 'ground');
+    ledge.body.immovable = true;
+
+    ledge = platforms.create(-150, 250, 'ground');
+    ledge.body.immovable = true;
+
+    //  Finally some stars to collect
+    stars = game.add.group();
+
+    //  We will enable physics for any star that is created in this group
+    stars.enableBody = true;
+
+    //  Here we'll create 12 of them evenly spaced apart
+    for (var i = 0; i < 12; i++)
+    {
+        //  Create a star inside of the 'stars' group
+        var star = stars.create(i * 70, 0, 'star');
+
+        //  Let gravity do its thing
+        star.body.gravity.y = 300;
+
+        //  This just gives each star a slightly random bounce value
+        star.body.bounce.y = 0.7 + Math.random() * 0.2;
+    }
+
+
+
+    //  The score
+    scoreText = game.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#000' });
+
+    //  Our controls.
+    cursors = game.input.keyboard.addKeys({
+        'jump': Phaser.KeyCode.W, 
+        'down': Phaser.KeyCode.S, 
+        'left': Phaser.KeyCode.A, 
+        'right': Phaser.KeyCode.D,
+        'jump' : Phaser.KeyCode.SPACEBAR,
+        'shoot' : Phaser.KeyCode.E
+    });
+
+
+    serverNextUpdate = game.time.time;
+}
+
+function update() {
+
+    //  Collide the player and the stars with the platforms
+    game.physics.arcade.collide(player.player, platforms);
+    game.physics.arcade.collide(stars, platforms);
+
+
+    for (i = 0; i < remote_players.length; i++) {
+        remote_player = remote_players[i];
+        game.physics.arcade.collide(remote_player.player, platforms);
+    }
+
+    //  Checks to see if the player overlaps with any of the stars, if he does call the collectStar function
+    game.physics.arcade.overlap(player, stars, collectStar, null, this);
+
+    // if (bulletFired) {
+    //     game.physics.arcade.overlap(bullet, platforms, kill_bullet, null, this)
+    // }
+
+    player.update(cursors);
+    updateServer(cursors);
+
+    if (player.bullets != null)
+        player.bullets.is_hit(platforms, false);   
+        player.bullets.is_hit(stars, true);
+}
+
+function collectStar (player, star) {
+    
+    // Removes the star from the screen
+    star.kill();
+
+    //  Add and update the score
+    score += 10;
+    scoreText.text = 'Score: ' + score;
+
+}
+
+
+function render() {
+
+//    game.debug.spriteInfo(player, 32, 32);
+
+}
+
+function updateServer(cursors) {
+    if (game.time.time < serverNextUpdate) { return; }
+    {
+        socket.emit("move", { left : cursors.left.isDown, right : cursors.right.isDown, jump : cursors.jump.isDown, shoot : cursors.shoot.isDown });
+        serverNextUpdate = game.time.time + serverUpdateRate;
+    }
+
+}
+
+function onSocketConnected() {
+    console.log("Connected to socket server");
+    socket.emit("new player", {x: 0, y: 0});
+};
+
+function onSocketDisconnect() {
+    console.log("Disconnected from socket server");
+    socket.emit("remove player", {x: 0, y: 0});
+};
+
+function onNewPlayer(data) {
+    if (socket.id != data.id)
+        console.log("New player connected: " + data.id);
+
+    var newPlayer = new RemotePlayer(game, data.id);
+    remote_players.push(newPlayer)
+    newPlayer.create()
+};
+
+function onMovePlayer(data) {
+    for (i = 0; i < remote_players.length; i++) {
+        remote_player = remote_players[i];
+        if (data.id == remote_player.id)
+            remote_player.remote_update(data.cursors);
+    }
+};
+
+function onRemovePlayer(data) {
+    console.log("Players has disconnected: " + data.id);
+    var remote_player;
+    var i = 0;
+    for (i = 0; i < remote_players.length; i++) {
+        remote_player = remote_players[i];
+        if (data.id == remote_player.id)
+            remote_player.destroy();
+    }
+};
+
+</script>
+
+</body>
+</html>

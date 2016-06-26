@@ -1,0 +1,1768 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"remote",
+				"remote_player"
+			],
+			[
+				"new",
+				"new_player"
+			],
+			[
+				"play",
+				"players"
+			],
+			[
+				"player_",
+				"player_velocity"
+			],
+			[
+				"sta",
+				"stars"
+			],
+			[
+				"kil",
+				"kill_target"
+			],
+			[
+				"kill",
+				"kill"
+			],
+			[
+				"bu",
+				"bullet"
+			],
+			[
+				"pla",
+				"platform"
+			],
+			[
+				"Bu",
+				"bullets"
+			],
+			[
+				"bull",
+				"bullets"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"enabl",
+				"enableBody"
+			],
+			[
+				"bulle",
+				"bulletFired"
+			],
+			[
+				"Single",
+				"SingleBullet"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"norma",
+				"normalizedX"
+			],
+			[
+				"Vec",
+				"Vector2i"
+			],
+			[
+				"humn",
+				"humanPositionY"
+			],
+			[
+				"human",
+				"humanPositionY"
+			],
+			[
+				"center",
+				"centerOfFOVPosition"
+			],
+			[
+				"off",
+				"offsetX"
+			],
+			[
+				"pith",
+				"pitchAngleDetection"
+			],
+			[
+				"gimbal",
+				"gimbalAngle"
+			],
+			[
+				"norm",
+				"normalizedX"
+			],
+			[
+				"offset",
+				"offsetX"
+			],
+			[
+				"inv",
+				"invertY"
+			],
+			[
+				"pid",
+				"pitchPid"
+			],
+			[
+				"aeye_",
+				"k_param_aeye_pid_yaw"
+			],
+			[
+				"pit",
+				"pitchPid"
+			],
+			[
+				"thresh",
+				"threshold_x"
+			],
+			[
+				"uint",
+				"uint8_t"
+			],
+			[
+				"last",
+				"lastY"
+			],
+			[
+				"sever",
+				"SEVERITY_LOW"
+			],
+			[
+				"AEYE_I2C_",
+				"AEYE_I2C_OK"
+			],
+			[
+				"_lastTES",
+				"_lastTestResult"
+			],
+			[
+				"AEYE_I2C_ERROR",
+				"AEYE_I2C_ERROR_READING"
+			],
+			[
+				"_last",
+				"_lastTestResult"
+			],
+			[
+				"AP_int",
+				"AP_Int16"
+			],
+			[
+				"Last",
+				"LastStatus"
+			],
+			[
+				"aE",
+				"aEyeHealthy"
+			],
+			[
+				"ae",
+				"aEyeHealthy"
+			],
+			[
+				"quad",
+				"quadInterfaceRegisters"
+			],
+			[
+				"mi",
+				"minimumHumanDistance"
+			],
+			[
+				"data",
+				"dataIndex"
+			],
+			[
+				"i2c",
+				"i2CRegistersCount"
+			],
+			[
+				"I2CRegister",
+				"I2CRegistersCount"
+			],
+			[
+				"regist",
+				"registerAddress"
+			],
+			[
+				"slave",
+				"slaveData"
+			],
+			[
+				"I2C_SS_REA",
+				"I2C_SS_READ_WAITING_FOR_ADDRESS"
+			],
+			[
+				"I2C_SS_READ",
+				"I2C_SS_READ_DONE"
+			],
+			[
+				"regis",
+				"registerAddress"
+			],
+			[
+				"I2C_SS_WA",
+				"I2C_SS_WAITING_FOR_REG_ADDRESS"
+			],
+			[
+				"E",
+				"EI2CSlaveState"
+			],
+			[
+				"I2C_SSP",
+				"I2C_SSP_DATA"
+			],
+			[
+				"EI",
+				"EI2CSlaveStatePromotion"
+			],
+			[
+				"thir",
+				"third_eye_source"
+			],
+			[
+				"k_param_rssi",
+				"k_param_rssi_pin"
+			],
+			[
+				"SEVE",
+				"SEVERITY_HIGH"
+			],
+			[
+				"GCS_Ma",
+				"GCS_MAVLINK"
+			],
+			[
+				"MAVLINK_COM",
+				"MAVLINK_COMM_0"
+			],
+			[
+				"tra",
+				"transform_cell"
+			],
+			[
+				"field",
+				"field_name"
+			],
+			[
+				"get",
+				"get_value"
+			],
+			[
+				"sheet",
+				"sheetNo"
+			],
+			[
+				"fiel",
+				"field_name"
+			],
+			[
+				"wei",
+				"weight"
+			],
+			[
+				"add",
+				"add_weight"
+			],
+			[
+				"fied",
+				"field_name"
+			],
+			[
+				"lins",
+				"lines_tuples"
+			],
+			[
+				"inpu",
+				"input_sheet"
+			],
+			[
+				"trans",
+				"transform_table"
+			],
+			[
+				"output",
+				"output_table"
+			],
+			[
+				"input",
+				"input_table"
+			],
+			[
+				"fie",
+				"field_name"
+			],
+			[
+				"weig",
+				"weight_db"
+			],
+			[
+				"We",
+				"Weight_If_Not_Contained"
+			],
+			[
+				"Weig",
+				"Weight_If_Contained"
+			],
+			[
+				"Wei",
+				"Weight_If_Exact"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"read",
+				"read_weights_into_db"
+			],
+			[
+				"head",
+				"headers"
+			],
+			[
+				"header",
+				"headers"
+			],
+			[
+				"he",
+				"headers"
+			],
+			[
+				"http",
+				"http_fields"
+			],
+			[
+				"sh",
+				"sheet_w"
+			],
+			[
+				"hea",
+				"headers_col"
+			],
+			[
+				"http_",
+				"http_header_names"
+			],
+			[
+				"readlin",
+				"readlines  (function)"
+			],
+			[
+				"str",
+				"strip"
+			],
+			[
+				"ur",
+				"url_part1"
+			],
+			[
+				"wri",
+				"write  (function)"
+			],
+			[
+				"writ",
+				"writelines  (function)"
+			],
+			[
+				"url",
+				"url_part2"
+			],
+			[
+				"P",
+				"primary"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server/main.js",
+			"settings":
+			{
+				"buffer_size": 1806,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 258 files for \"new player\" (case sensitive)\n\nF:\\Users\\Nitay\\Dropbox\\Work\\WebGL\\Phaser Test\\TestGame\\index.html:\n   67      socket.on(\"connect\", onSocketConnected);\n   68      socket.on(\"disconnect\", onSocketDisconnect);\n   69:     socket.on(\"new player\", onNewPlayer);\n   70      socket.on(\"move player\", onMovePlayer);\n   71      socket.on(\"remove player\", onRemovePlayer);\n   ..\n  175  function onSocketConnected() {\n  176      console.log(\"Connected to socket server\");\n  177:     socket.emit(\"new player\", {x: 0, y: 0});\n  178  };\n  179  \n\nF:\\Users\\Nitay\\Dropbox\\Work\\WebGL\\Phaser Test\\TestGame\\server\\main.js:\n   31      console.log(\"New player has connected: \" + client.id);\n   32      client.on(\"disconnect\", onClientDisconnect);\n   33:     client.on(\"new player\", onNewPlayer);\n   34      client.on(\"move player\", onMovePlayer);\n   35  };\n   ..\n   48  	newPlayer.id = this.id;\n   49  \n   50: 	console.log('Broadcasting new player')\n   51  \n   52: 	this.broadcast.emit(\"new player\", {id: newPlayer.id, x: newPlayer.getX(), y: newPlayer.getY()});\n   53  \n   54  	var i, existingPlayer;\n   55  	for (i = 0; i < players.length; i++) {\n   56  	    existingPlayer = players[i];\n   57:     	this.emit(\"new player\", {id: existingPlayer.id, x: existingPlayer.getX(), y: existingPlayer.getY()});\n   58  	};\n   59  \n\n6 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 1349,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5823,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "player.js",
+			"settings":
+			{
+				"buffer_size": 2373,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "weapon.js",
+			"settings":
+			{
+				"buffer_size": 5259,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "remote_player.js",
+			"settings":
+			{
+				"buffer_size": 2321,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "set s js",
+		"selected_items":
+		[
+			[
+				"set s js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"line",
+				"Line Ending: Unix"
+			],
+			[
+				"line ",
+				"Line Ending: Unix"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"set sy jas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set syn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set c",
+				"Set Syntax: C"
+			],
+			[
+				"set syn c",
+				"Set Syntax: C"
+			],
+			[
+				"set syntax: c",
+				"Set Syntax: C"
+			],
+			[
+				"pakac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"C++",
+				"Set Syntax: C++"
+			],
+			[
+				"mark ",
+				"Set Syntax: Markdown"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"clang",
+				"Set Syntax: SublimeClangErrorPanel"
+			],
+			[
+				"++",
+				"Set Syntax: C++"
+			],
+			[
+				"c+",
+				"Set Syntax: C++"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"C+",
+				"Set Syntax: C++"
+			],
+			[
+				"+",
+				"Set Syntax: C++"
+			],
+			[
+				"syntax c",
+				"Set Syntax: C"
+			],
+			[
+				"set syntax c",
+				"Set Syntax: C"
+			],
+			[
+				"set sy",
+				"Set Syntax: C"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"x: c",
+				"Set Syntax: C"
+			],
+			[
+				"syntax: c",
+				"Set Syntax: C"
+			],
+			[
+				"remov ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"vh",
+				"Set Syntax: VHDL"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Users/Nitay/Dropbox/Work/WebGL/Phaser Test/TestGame",
+		"/F/Users/Nitay/Dropbox/Work/WebGL/Phaser Test/TestGame/server"
+	],
+	"file_history":
+	[
+		"/F/Users/Nitay/Dropbox/Work/WebGL/Phaser Test/TestGame/server/player.js",
+		"/F/Users/Nitay/Dropbox/Work/WebGL/Phaser Test/TestGame/index.html",
+		"/F/Users/Nitay/Dropbox/Work/WebGL/Phaser Test/TestGame/server/main.js",
+		"/F/Users/Nitay/Dropbox/Work/WebGL/Phaser Test/TestGame/weapon.js",
+		"/F/Users/Nitay/Dropbox/Work/WebGL/Phaser Test/TestGame/player.js",
+		"/F/Users/Nitay/Dropbox/Work/DoProperScience/Chrome Extension/GetReference/app/popup.html",
+		"/F/Users/Nitay/Dropbox/Work/DoProperScience/Chrome Extension/GetReference/app/scripts.babel/background.js",
+		"/F/Users/Nitay/Dropbox/Work/DoProperScience/project.sublime-project",
+		"/F/Users/Nitay/Dropbox/Work/DoProperScience/Chrome Extension/GetReference/popup.js",
+		"/F/Users/Nitay/Dropbox/Work/DoProperScience/Chrome Extension/GetReference/getData.js",
+		"/F/Users/Nitay/Dropbox/Work/DoProperScience/Chrome Extension/GetReference/manifest.json",
+		"/F/Users/Nitay/Dropbox/Work/DoProperScience/Chrome Extension/GetReference/popup.html",
+		"/F/Users/Nitay/Dropbox/Work/Third Eye/Website/thirdeye-systems.com/css/tes.css",
+		"/F/Users/Nitay/Dropbox/Work/Third Eye/Website/thirdeye-systems.com/css/agency.css",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/system.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/precision_landing.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/modules/PX4Firmware/src/drivers/irlock/irlock.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/Copter.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/Copter.h",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/ArduCopter.cpp",
+		"/C/Users/Nitay/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/libraries/AC_PrecLand/AC_PrecLand.h",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/libraries/AC_PrecLand/AC_PrecLand.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/libraries/AC_PrecLand/AC_PrecLand_IRLock.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/libraries/AP_IRLock/IRLock.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/libraries/AP_IRLock/AP_IRLock_PX4.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/defines.h",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/crash_check.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/control_flip.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/Parameters.h",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/Parameters.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/control_loiter.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/Log.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/failsafe.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/modules/PX4Firmware/src/drivers/aeye_i2c/aeye_i2c.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/libraries/DataFlash/DataFlash.h",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/libraries/AC_PrecLand/AC_PrecLand_Companion.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/libraries/AP_Param/AP_Param.h",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/ArduCopter/GCS_Mavlink.cpp",
+		"/C/Users/Nitay/Documents/Work/Third Eye/ardupilot/libraries/AP_Compass/Compass.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_aEye/AP_aEye_Backend.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/system.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_aEye/AP_aEye.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_aEye/AP_aEye.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/DataFlash/DataFlash.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_aEye/AP_aEye_PX4.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/DataFlash/LogFile.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/modules/PX4Firmware/src/drivers/aeye_i2c/aeye_i2c.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/PID/PID.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/PID/PID.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/DataFlash/DataFlash.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_IRLock/AP_IRLock_PX4.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_PrecLand/AC_PrecLand.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_PrecLand/AC_PrecLand.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_PID/AC_PI_2D.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/Log.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_AHRS/AP_AHRS_NavEKF.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/control_acro.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_PrecLand/AC_PrecLand_Companion.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/GCS_MAVLink/include/mavlink/v1.0/common/mavlink_msg_landing_target.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_HAL/HAL.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/Attitude.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/Copter.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/compat.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/GCS_Mavlink.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/GCS_MAVLink/message_definitions/ardupilotmega.xml",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_Progmem/AP_Progmem.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_Common/AP_Common.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/proj.sublime-project",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/control_land.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_WPNav/AC_WPNav.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_AttitudeControl/AC_PosControl.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_AttitudeControl/AC_PosControl.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/ArduCopter.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/make.inc",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/defines.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_WPNav/AC_WPNav.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/Parameters.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/Parameters.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/config.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/APM_Config.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/modules/PX4Firmware/src/drivers/irlock/irlock.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/ekf_check.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_NavEKF/AP_NavEKF.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/APM_Control/AP_PitchController.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_Math/AP_Math_AVR_Compat.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_AttitudeControl/AC_AttitudeControl.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_Compass/Compass.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_Compass/Compass.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/control_auto.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/GCS_MAVLink/GCS_Common.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_Mount/AP_Mount.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/flight_mode.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/radio.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_GPS/AP_GPS_SBP.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/motors.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/modules/PX4Firmware/src/drivers/md25/md25_main.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/modules/PX4Firmware/src/drivers/hmc5883/hmc5883_i2c.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/modules/PX4Firmware/src/drivers/device/i2c_nuttx.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/modules/PX4Firmware/src/drivers/hmc5883/hmc5883.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_Arming/AP_Arming.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/motor_test.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_PID/AC_PID.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_aEye/AP_aEye_SIM.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_RPM/AP_RPM.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/APM_Control/AP_PitchController.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/APM_Control/AP_RollController.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/APM_Control/AP_SteerController.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/APM_Control/AP_YawController.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_AHRS/AP_AHRS.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_AHRS/AP_AHRS.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_RPM/AP_RPM.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_Scheduler/AP_Scheduler.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_HAL/Scheduler.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_HAL_PX4/Scheduler.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AC_PID/AC_PID.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_HAL_AVR/examples/UtilityStringTest/nocore.inoflag",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_Limits/AP_Limit_Geofence.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/GCS_MAVLink/MAVLink_routing.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/modules/PX4Firmware/src/drivers/gps/gps.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_HAL_PX4/UARTDriver.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/ArduCopter/AP_State.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_HAL_PX4/HAL_PX4_Class.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_HAL/UARTDriver.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_HAL_Linux/SerialDevice.h",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_GPS/AP_GPS.cpp",
+		"/C/Users/nitay/Documents/Work/Drone/ardupilot/libraries/AP_GPS/AP_GPS.h"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<project>",
+			"",
+			"<file>",
+			"<project>",
+			"<open folders>",
+			"C:\\Users\\Nitay\\Documents\\Work\\Third Eye\\ardupilot",
+			"",
+			"C:\\Users\\Nitay\\Documents\\Dropbox\\Work\\QuadCopter\\Software\\Ardupilot\\ardupilot\\ArduCopter,C:\\Users\\Nitay\\Documents\\Dropbox\\Work\\QuadCopter\\Software\\Ardupilot\\ardupilot\\libraries",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"new player",
+			"push",
+			"onNewPlayer",
+			"8000",
+			"8001",
+			"8000",
+			"8001",
+			"8000",
+			"arrow",
+			"bulletFired",
+			"velocity",
+			"left",
+			"fire",
+			"world",
+			"SingleBullet",
+			"fire",
+			"SingleBullet",
+			"Allo ",
+			"Allo",
+			"allo",
+			"videoframe",
+			"767",
+			"768",
+			"767",
+			"services",
+			"media",
+			"section",
+			"fullscreen",
+			"section",
+			"phone",
+			"uppercase",
+			"100",
+			"navbar-shrin",
+			"aeye",
+			"100percent",
+			"header-bg",
+			"fullsc",
+			"img-round",
+			"img-res",
+			"border-r",
+			"team",
+			"intro-head",
+			"btn-xl",
+			".btn-xl",
+			".button",
+			"button",
+			"col-sm-4",
+			"-responsive",
+			"img-responsive",
+			"line end",
+			"line",
+			"Copter(",
+			"precland",
+			"health",
+			"aeye",
+			"SUBSYSTEM_CPU",
+			"SUBSYSTEM_CPI",
+			"ERROR_CODE_FAILSAFE_OCCURRED",
+			"ERROR_SUBSYSTEM_CPU",
+			"ERROR_SUBSYSTEM_PARACHUTE",
+			"Log_Write_Error",
+			"ERR",
+			"error",
+			"err",
+			"CPU-1",
+			"\"Err",
+			"Err:",
+			"\"Err:",
+			"\"Err",
+			"Err",
+			"precland",
+			"get_angle_to_target",
+			"calc_angles_and_pos",
+			"precland",
+			"precision",
+			"precland",
+			"#define AP_GROUPEND",
+			"AP_GROUPEND",
+			"AP_SUBGROUPINFO",
+			"_pi_vel_xy",
+			"realPosX",
+			"log_AEYE",
+			"humanPos",
+			"log_AEYE",
+			"Log_Write_aEye",
+			"log_write",
+			"AEYE_",
+			"e1",
+			"LOG_AEYE_MSG",
+			"Log_Write_aEye",
+			"log",
+			"get_pid",
+			"aeye",
+			"CURR",
+			"millis",
+			"milli",
+			"_pi_vel_xy",
+			"MAV_CMD_DO_GRIPPER",
+			"millis()",
+			"millis",
+			"millis()",
+			"__mavlink_landing_target_t",
+			"mavlink_msg_landing_target_decode",
+			"_pi_vel_xy",
+			"AC_PI_2D",
+			"set_xy_t",
+			"3.3.1",
+			"TES",
+			"Log_Write_Precland",
+			"irlock",
+			"precland",
+			"Guided",
+			"precland",
+			"Guided",
+			"precland",
+			"guided",
+			"precland",
+			"PRECISION",
+			"init_loi",
+			"PRECISION",
+			"73",
+			"150",
+			"Log_Write_Heli",
+			"PRECISION",
+			"sched_ta",
+			"PRECISION",
+			"GIT_VERSION",
+			"version"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bulletsLeft",
+			"PID_Info",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1349,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										252,
+										262
+									],
+									[
+										507,
+										517
+									],
+									[
+										769,
+										779
+									],
+									[
+										937,
+										947
+									],
+									[
+										987,
+										997
+									],
+									[
+										1213,
+										1223
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								513,
+								513
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5066,
+								5066
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 782.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1017,
+								1017
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "weapon.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								847,
+								847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "remote_player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 244.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "proj.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"serverpla",
+				"server\\player.js"
+			],
+			[
+				"server",
+				"server\\main.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"popup",
+				"Chrome Extension\\GetReference\\app\\popup.html"
+			],
+			[
+				"manif",
+				"Chrome Extension\\GetReference\\manifest.json"
+			],
+			[
+				"mani",
+				"Chrome Extension\\GetReference\\manifest.json"
+			],
+			[
+				"php",
+				"mail\\contact_me.php"
+			],
+			[
+				"agen",
+				"css\\agency.css"
+			],
+			[
+				"anima",
+				"js\\cbpAnimatedHeader.js"
+			],
+			[
+				"tes",
+				"css\\tes.css"
+			],
+			[
+				"css",
+				"css\\bootstrap.css"
+			],
+			[
+				"irlock",
+				"drivers\\irlock\\irlock.cpp"
+			],
+			[
+				"copter",
+				"ArduCopter\\Copter.h"
+			],
+			[
+				"syste",
+				"ArduCopter\\system.cpp"
+			],
+			[
+				"ardu",
+				"ArduCopter\\ArduCopter.cpp"
+			],
+			[
+				"precision",
+				"ArduCopter\\precision_landing.cpp"
+			],
+			[
+				"sys",
+				"ArduCopter\\system.cpp"
+			],
+			[
+				"i2caeye",
+				"drivers\\aeye_i2c\\aeye_i2c.cpp"
+			],
+			[
+				"data",
+				"libraries\\DataFlash\\DataFlash.h"
+			],
+			[
+				"log",
+				"ArduCopter\\Log.cpp"
+			],
+			[
+				"loit",
+				"ArduCopter\\control_loiter.cpp"
+			],
+			[
+				"irlockpx",
+				"libraries\\AP_IRLock\\AP_IRLock_PX4.cpp"
+			],
+			[
+				"preclandirlock",
+				"libraries\\AC_PrecLand\\AC_PrecLand_IRLock.cpp"
+			],
+			[
+				"precland",
+				"libraries\\AC_PrecLand\\AC_PrecLand.cpp"
+			],
+			[
+				"param",
+				"ArduCopter\\Parameters.cpp"
+			],
+			[
+				"precle",
+				"libraries\\AC_PrecLand\\AC_PrecLand.cpp"
+			],
+			[
+				"compas",
+				"libraries\\AP_Compass\\Compass.cpp"
+			],
+			[
+				"predlandh",
+				"libraries\\AC_PrecLand\\AC_PrecLand.h"
+			],
+			[
+				"ac_pe",
+				"libraries\\AC_PrecLand\\AC_PrecLand.cpp"
+			],
+			[
+				"gcs_mav",
+				"ArduCopter\\GCS_Mavlink.cpp"
+			],
+			[
+				"logfile",
+				"libraries/DataFlash/LogFile.cpp"
+			],
+			[
+				"aeye",
+				"libraries/AP_aEye/AP_aEye.cpp"
+			],
+			[
+				"aeye_px",
+				"libraries/AP_aEye/AP_aEye_PX4.cpp"
+			],
+			[
+				"aeyebacked",
+				"libraries/AP_aEye/AP_aEye_Backend.cpp"
+			],
+			[
+				"system",
+				"ArduCopter/system.cpp"
+			],
+			[
+				"aeyei2",
+				"drivers/aeye_i2c/aeye_i2c.cpp"
+			],
+			[
+				"aee",
+				"libraries/AP_aEye/AP_aEye.h"
+			],
+			[
+				"datafl",
+				"libraries/DataFlash/DataFlash.cpp"
+			],
+			[
+				"pid",
+				"libraries/PID/PID.cpp"
+			],
+			[
+				"irlocpx",
+				"libraries/AP_IRLock/AP_IRLock_PX4.cpp"
+			],
+			[
+				"prec",
+				"libraries/AC_PrecLand/AC_PrecLand.cpp"
+			],
+			[
+				"ac_pi_2d",
+				"libraries/AC_PID/AC_PI_2D.h"
+			],
+			[
+				"gcs_ma",
+				"ArduCopter/GCS_Mavlink.cpp"
+			],
+			[
+				"hal",
+				"libraries/AP_HAL/HAL.h"
+			],
+			[
+				"ac_pi_2",
+				"libraries/AC_PID/AC_PI_2D.h"
+			],
+			[
+				"common",
+				"libraries/AP_Common/AP_Common.cpp"
+			],
+			[
+				"progmem",
+				"libraries/AP_Progmem/AP_Progmem.h"
+			],
+			[
+				"precland_com",
+				"libraries/AC_PrecLand/AC_PrecLand_Companion.cpp"
+			],
+			[
+				"control_acr",
+				"ArduCopter/control_acro.cpp"
+			],
+			[
+				"precl",
+				"libraries/AC_PrecLand/AC_PrecLand.h"
+			],
+			[
+				"acpos",
+				"libraries/AC_AttitudeControl/AC_PosControl.cpp"
+			],
+			[
+				"acwp",
+				"libraries/AC_WPNav/AC_WPNav.h"
+			],
+			[
+				"control_land",
+				"ArduCopter/control_land.cpp"
+			],
+			[
+				"make.inc",
+				"ArduCopter/make.inc"
+			],
+			[
+				"define",
+				"ArduCopter/defines.h"
+			],
+			[
+				"wpna",
+				"libraries/AC_WPNav/AC_WPNav.h"
+			],
+			[
+				"para",
+				"ArduCopter/Parameters.cpp"
+			],
+			[
+				"config",
+				"ArduCopter/config.h"
+			],
+			[
+				"arduco",
+				"ArduCopter/ArduCopter.cpp"
+			],
+			[
+				"apmc",
+				"ArduCopter/APM_Config.h"
+			],
+			[
+				"gcs",
+				"ArduCopter/GCS_Mavlink.cpp"
+			],
+			[
+				"att",
+				"libraries/AC_AttitudeControl/AC_AttitudeControl.h"
+			],
+			[
+				"atti",
+				"libraries/AC_AttitudeControl/AC_AttitudeControl.cpp"
+			],
+			[
+				"compass",
+				"libraries/AP_Compass/Compass.h"
+			],
+			[
+				"ap_aeye",
+				"libraries/AP_aEye/AP_aEye.cpp"
+			],
+			[
+				"arducop",
+				"ArduCopter/ArduCopter.cpp"
+			],
+			[
+				"flight",
+				"ArduCopter/flight_mode.cpp"
+			],
+			[
+				"auto",
+				"ArduCopter/control_auto.cpp"
+			],
+			[
+				"hmc",
+				"drivers/hmc5883/hmc5883_i2c.cpp"
+			],
+			[
+				"i2c_nu",
+				"drivers/device/i2c_nuttx.cpp"
+			],
+			[
+				"aeyei2c",
+				"drivers/aeye_i2c/aeye_i2c.cpp"
+			],
+			[
+				"dataflas",
+				"libraries/DataFlash/DataFlash.h"
+			],
+			[
+				"dataf",
+				"libraries/DataFlash/DataFlash.h"
+			],
+			[
+				"datafla",
+				"libraries/DataFlash/DataFlash.h"
+			],
+			[
+				"arducopter",
+				"ArduCopter/ArduCopter.cpp"
+			],
+			[
+				"ac_pid",
+				"libraries/AC_PID/AC_PID.h"
+			],
+			[
+				"aeye.h",
+				"libraries/AP_aEye/AP_aEye.h"
+			],
+			[
+				"attitu",
+				"libraries/AC_AttitudeControl/AC_AttitudeControl.h"
+			],
+			[
+				"ahrs",
+				"libraries/AP_AHRS/AP_AHRS.cpp"
+			],
+			[
+				"ap_ahrs",
+				"libraries/AP_AHRS/AP_AHRS.h"
+			],
+			[
+				"ap_rpm",
+				"libraries/AP_RPM/AP_RPM.h"
+			],
+			[
+				"dataflash",
+				"libraries/DataFlash/DataFlash.h"
+			],
+			[
+				"pid.h",
+				"libraries/PID/PID.h"
+			],
+			[
+				"scheduler",
+				"libraries/AP_Scheduler/AP_Scheduler.cpp"
+			],
+			[
+				"schdu",
+				"libraries/AP_HAL/Scheduler.h"
+			],
+			[
+				"px4scheul",
+				"libraries/AP_HAL_PX4/Scheduler.cpp"
+			],
+			[
+				"systen",
+				"libraries/AP_HAL_AVR/examples/UtilityStringTest/nocore.inoflag"
+			],
+			[
+				"mavlink",
+				"ArduCopter/GCS_Mavlink.cpp"
+			],
+			[
+				"geo",
+				"libraries/AP_Limits/AP_Limit_Geofence.cpp"
+			],
+			[
+				"copter.",
+				"ArduCopter/Copter.h"
+			],
+			[
+				"gps",
+				"drivers/gps/gps.cpp"
+			],
+			[
+				"pxuart",
+				"libraries/AP_HAL_PX4/UARTDriver.cpp"
+			],
+			[
+				"uart",
+				"libraries/AP_HAL/UARTDriver.cpp"
+			],
+			[
+				"serial",
+				"libraries/AP_HAL_Linux/SerialDevice.h"
+			],
+			[
+				"acpid",
+				"libraries/AC_PID/AC_PID.cpp"
+			],
+			[
+				"ap_gps",
+				"libraries/AP_GPS/AP_GPS.h"
+			],
+			[
+				"paramer",
+				"ArduCopter/Parameters.h"
+			],
+			[
+				"ap_common",
+				"libraries/AP_Common/AP_Common.h"
+			],
+			[
+				"ardup",
+				"ArduCopter/ArduCopter.cpp"
+			],
+			[
+				"ac_att",
+				"libraries/AC_AttitudeControl/AC_AttitudeControl.cpp"
+			],
+			[
+				"rc_cha",
+				"libraries/RC_Channel/RC_Channel.cpp"
+			],
+			[
+				"rc_ch",
+				"libraries/RC_Channel/RC_Channel.h"
+			],
+			[
+				"rc_channel_aux",
+				"libraries/RC_Channel/RC_Channel_aux.h"
+			],
+			[
+				"ap_para",
+				"libraries/AP_Param/AP_Param.cpp"
+			],
+			[
+				"ap_param",
+				"libraries/AP_Param/AP_Param.h"
+			],
+			[
+				"compass_hc",
+				"libraries/AP_Compass/AP_Compass_HMC5843.cpp"
+			],
+			[
+				"parame",
+				"ArduCopter/Parameters.h"
+			],
+			[
+				"rpm",
+				"libraries/AP_RPM/AP_RPM.cpp"
+			],
+			[
+				"parap",
+				"ArduCopter/Parameters.cpp"
+			],
+			[
+				"parameter",
+				"ArduCopter/Parameters.cpp"
+			],
+			[
+				"ae",
+				"libraries/AP_aEye/AP_aEye.h"
+			],
+			[
+				"paramter",
+				"ArduCopter/Parameters.cpp"
+			],
+			[
+				"storage",
+				"libraries/AP_HAL_PX4/Storage.cpp"
+			],
+			[
+				"eeprom",
+				"libraries/AP_HAL_FLYMAPLE/utility/EEPROM.cpp"
+			],
+			[
+				"stora",
+				"libraries/AP_HAL_AVR/Storage.cpp"
+			],
+			[
+				"vector",
+				"libraries/AP_Math/vector3.cpp"
+			],
+			[
+				"i2cae",
+				"drivers/aeye_i2c/aeye_i2c.cpp"
+			],
+			[
+				"aeyeba",
+				"libraries/AP_aEye/AP_aEye_Backend.h"
+			],
+			[
+				"aeyebackend",
+				"libraries/AP_aEye/AP_aEye_Backend.cpp"
+			],
+			[
+				"aeyesim",
+				"libraries/AP_aEye/AP_aEye_SIM.cpp"
+			],
+			[
+				"ayeeback",
+				"libraries/AP_aEye/AP_aEye_Backend.cpp"
+			],
+			[
+				"aeyepx",
+				"libraries/AP_aEye/AP_aEye_PX4.cpp"
+			],
+			[
+				"aeye_i2c",
+				"drivers/aeye_i2c/aeye_i2c.cpp"
+			],
+			[
+				"syst",
+				"ArduCopter/system.cpp"
+			],
+			[
+				"aeyeback",
+				"libraries/AP_aEye/AP_aEye_Backend.cpp"
+			],
+			[
+				"paramet",
+				"ArduCopter/Parameters.h"
+			],
+			[
+				"fli",
+				"ArduCopter/flight_mode.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

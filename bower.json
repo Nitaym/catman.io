@@ -1,0 +1,21 @@
+{
+  "name": "TestGame",
+  "authors": [
+    "Nitay Megides <nitaym@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket-io-client": "^1.4.5"
+  }
+}
