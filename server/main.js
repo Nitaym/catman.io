@@ -1,15 +1,15 @@
-var express = require('express'), 
+var express = require('express'),
 	app = express(),
 	http = require("http").Server(app),
 	io = require("socket.io")(http),
-	Player = require("./Player").Player;
+	Player = require("./player").Player;
 
 
 var socket,
     players;
 
 app.use(express.static(__dirname + '/../'));
-app.get('/', function(req, res,next) {  
+app.get('/', function(req, res,next) {
     res.sendFile(__dirname + '/../index.html');
 });
 
@@ -32,11 +32,11 @@ function onSocketConnection(client) {
 
     client.on("disconnect", function (data) {
 	    console.log("Player has disconnected: " + this.id);
-	  
+
 		io.sockets.emit("remove player", {id: data.id});
 
 		for (var i = 0; i < players.length; i++)
-		    if (players[i].id === this.id) { 
+		    if (players[i].id === this.id) {
 		        players.splice(i, 1);
 		        break;
 		    }
