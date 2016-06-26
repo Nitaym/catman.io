@@ -66,7 +66,7 @@ function create() {
     sky = game.add.sprite(0, 0, 'sky');
     sky.scale.setTo(2,2);
 
-    socket = io.connect("http://127.0.0.1:8000");//, {port: 8001, transports: ["websocket"]});
+    socket = io.connect();
     socket.on("connect", onSocketConnected);
     socket.on("disconnect", onSocketDisconnect);
     socket.on("new player", onNewPlayer);
