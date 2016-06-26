@@ -37,7 +37,9 @@ Player.prototype = {
 	    //  Reset the players velocity (movement)
 	    this.player.body.velocity.x = 0;
 
-    	angle = this.game.math.radToDeg(this.game.physics.arcade.angleToXY(this.player, this.game.input.activePointer.x, this.game.input.activePointer.y));
+    	angle = this.game.math.radToDeg(this.game.physics.arcade.angleToXY(this.player, 
+    										this.game.input.activePointer.x, 
+    										this.game.input.activePointer.y));
 	    if ((angle < 90) && (angle > -90))
 	    	pointingRight = true;
 	    else
@@ -75,7 +77,7 @@ Player.prototype = {
 	        this.player.body.velocity.y = -800;
 	    }
 
-	    if (cursors.shoot.isDown)
+	    if (cursors.shoot.isDown || game.input.activePointer.isDown)
 	    {
 	    	this.bullets.fire(this.player, angle);
 	    }
