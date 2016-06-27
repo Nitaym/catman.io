@@ -47,13 +47,15 @@ Bullets.prototype = {
 
 	fire : function (source, angle) {
 	    if (this.game.time.time < this.nextFire) { return; }
-
+	    
 	   	this.bulletsLeft--;
 
 	   	bullet = this.single_bullets.getFirstExists(false);	   	
 	    
 	    bullet.reset(source.x + source._frame.centerX, source.y + source._frame.centerY);
 	   	// bullet.exists = true;
+
+
 
 	    // bullet.enableBody = true;
 	    bullet.events.onOutOfBounds.add( this.kill_bullet, this );
@@ -64,6 +66,7 @@ Bullets.prototype = {
 	    this.game.physics.arcade.velocityFromAngle(angle, 650, bullet.body.velocity);
 
 		this.nextFire = this.game.time.time + this.fireRate;
+
 	},
 
 	kill_bullet : function (bullet) {
