@@ -4,8 +4,9 @@
 	<meta charset="UTF-8" />
     <title>Test Game</title>
     <script src="//cdn.jsdelivr.net/phaser/2.4.8/phaser.js"></script>
-    <!--<script type="text/javascript" src="bower_components/socket-io-client/socket.io.js"></script>-->
-    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.js"></script>
+    <!--<script src="/socket.io/socket.io.js"></script>-->
+	
 
 
     <style type="text/css">
@@ -186,7 +187,7 @@ function render() {
 function updateServer(cursors) {
     if (game.time.time < serverNextUpdate) { return; }
     {
-        socket.emit("move", { left : cursors.left.isDown, right : cursors.right.isDown, jump : cursors.jump.isDown, shoot : cursors.shoot.isDown });
+        //socket.emit("player-update", { player.game });
         serverNextUpdate = game.time.time + serverUpdateRate;
     }
 
@@ -206,7 +207,7 @@ function onNewPlayer(data) {
     if (socket.id != data.id)
         console.log("New player connected: " + data.id);
 
-    var newPlayer = new RemotePlayer(game, data.id);
+    var newPlayer = new RemotePlayer(game, data.id, data.x, data.y);
     remote_players.push(newPlayer)
     newPlayer.create()
 };

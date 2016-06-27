@@ -1,8 +1,11 @@
 
-function RemotePlayer(game, id) {
+function RemotePlayer(game, id, startX, startY) {
 	this.game = game;
 	this.player_velocity = 300;
 	this.id = id;
+
+	this.startX = startX;
+	this.startY = startY;
 }
 
 
@@ -12,7 +15,7 @@ RemotePlayer.prototype = {
  	create : function() {
 
 	    // The player and its settings
-	    this.player = this.game.add.sprite(32, this.game.world.height - 150, 'remote_dude');
+	    this.player = this.game.add.sprite(this.startX, this.startY, 'remote_dude');
 
 	    //  We need to enable physics on the player
 	    this.game.physics.arcade.enable(this.player);
